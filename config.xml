@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="org.deee.irutas" version="0.1.0">
+  <name>IRutas</name>
+  <description>&#xD;
+        Sistema de Supervisión de Rutas DEEE&#xD;
+    </description>
+  <author email="michel.puk@gmail.com" href="http://ionicframework.com/">&#xD;
+      Ionic Framework Team&#xD;
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <allow-navigation href="*"/>
+  <allow-intent href="http://*/*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="AndroidPersistentFileLocation" value="Internal"/>
+  <preference name="KeepRunning" value="true"/>
+  <preference name="Orientation" value="portrait"/>
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
+  </feature>
+  <platform name="android">
+    <icon density="ldpi" src="resources\android\icon\drawable-ldpi-icon.png"/>
+    <icon density="mdpi" src="resources\android\icon\drawable-mdpi-icon.png"/>
+    <icon density="hdpi" src="resources\android\icon\drawable-hdpi-icon.png"/>
+    <icon density="xhdpi" src="resources\android\icon\drawable-xhdpi-icon.png"/>
+  </platform>
+  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
+</widget>

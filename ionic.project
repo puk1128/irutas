@@ -1,0 +1,12 @@
+{
+  "name": "irutas",
+  "app_id": "534fee97",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

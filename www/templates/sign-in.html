@@ -1,0 +1,26 @@
+<ion-view view-title="Iniciar Sesión">
+  <ion-content class="padding" ng-controller="SignInCtrl" ng-init="initialize()">
+		<div class="list">
+			<label class="item item-input">
+				<span class="input-label">Equipo</span>
+				<input type="tel" ng-model="user.equipo">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Clave</span>
+				<input type="number" ng-model="user.clave">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Contraseña</span>
+				<input type="password" ng-model="user.password">
+			</label>
+		</div>
+		<div class="padding">
+			<button class="button button-block button-positive" ng-click="signIn(user)">
+				OK
+			</button>
+<!-- 			<p class="text-center">
+				<a href="#/forgot-password">Forgot password</a>
+			</p> -->
+		</div>
+  </ion-content>
+</ion-view>

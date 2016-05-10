@@ -1,0 +1,15 @@
+<ion-view view-title="Mapa Esri">
+  <ion-content class="padding" ng-controller="EsriCtrl" ng-init="initialize()">
+    <div id="esrimap" data-tap-disabled="true"></div>
+		<!-- <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>-->
+		<div class="esrimapinfo">
+			Equipo: {{equipo}}
+			Clave: {{clave}}
+			Lat: {{lat}}, Long: {{lng}} precisión: {{precision}} id: {{remoteid}}
+			Staus: {{status}} {{statusText}}<br>
+			<button ng-click="enviarPosicion()">Enviar Posición</button>
+			<button ng-click="iniciar()">Iniciar</button>
+			<button ng-click="parar()">Parar</button>
+		</div>
+  </ion-content>
+</ion-view>
